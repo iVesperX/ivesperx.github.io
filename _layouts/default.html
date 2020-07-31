@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <title>{{ site.title }}</title>
-  </head>
+  <head></head>
   <body>
     <h1>ivesperx.github.io</h1>
 
+    {% include navigation.html}
+
+    <!-- {% if site.nav %}
     <div class="links">
       <a href="/">index</a>
       <a href="/about">about</a>
     </div>
+    {% endif %} -->
 
     <div class="content">
       {{ content }}
